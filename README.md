@@ -4,3 +4,23 @@ Services Provided By Spring Boot
 
 Application
 ![image](https://user-images.githubusercontent.com/107765212/212602085-596bb20b-8c9f-4e4a-9241-de41767a75f7.png)
+
+Structure Example-
+com
+ +- example
+     +- myapplication
+         +- MyApplication.java
+         |
+         +- customer
+         |   +- Customer.java
+         |   +- CustomerController.java
+         |   +- CustomerService.java
+         |   +- CustomerRepository.java
+         |
+         +- order
+             +- Order.java
+             +- OrderController.java
+             +- OrderService.java
+             +- OrderRepository.java
+             
+             
